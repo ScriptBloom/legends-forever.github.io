@@ -1,5 +1,6 @@
 @import './index';
 
+
 .search__loader {
     position: relative;
     color: $main-color;
@@ -30,4 +31,12 @@
         color: $main-color;
         margin: 0 5px;
     }
+}
+
+.page__mini-article img{
+    width: 100%;
+}
+
+.page__post{
+    padding: 0 8px;
 }

@@ -61,3 +61,13 @@ window.addEventListener('load', function() {
             .toggle();
     })();
 });
+
+
+// get window height
+
+var height = $(window).height();
+$('#page-header').css('height',(height - 50));
+
+$('.scroll-btn').click(function(){
+    $('html,body').animate({scrollTop:(height - 50)},800);
+});
